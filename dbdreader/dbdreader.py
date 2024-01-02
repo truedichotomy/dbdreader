@@ -1399,7 +1399,7 @@ class MultiDBD(object):
         .. versionadded:: 0.4.0
 
         '''
-        CTDparameters = ["sci_ctd41cp_timestamp", "sci_water_cond",
+        CTDparameters = ["sci_rbrctd_timestamp", "sci_water_cond",
                          "sci_water_temp", "sci_water_pressure"]
         offset = len(CTDparameters) + 1 # because of m_present_time is
                                         # also returned.

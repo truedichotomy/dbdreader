@@ -14,3 +14,4 @@ dist/
 MANIFEST
 # emacs backup files
 *~
+.DS_Store
